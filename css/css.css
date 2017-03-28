@@ -1,0 +1,739 @@
+/*头部导航*/
+body{
+	min-width: 1200px;
+}
+.clear{
+	clear: both;
+}
+.header{
+	width: 100%;
+	height: 60px;
+	background: rgba(0,0,0,0.5);
+	position: fixed;
+	z-index: 100;
+	top: 0;
+}
+.header_body{
+	width: 1200px;
+	margin:0 auto;
+}
+.header_daohang li .index_click{
+	color: #fff;
+}
+.logo{
+	background: url(../images/logo.png) left center no-repeat;
+	color: #fff;
+	font-size: 20px;
+	line-height: 60px;
+	margin-left: 95px;
+	padding-left: 48px;
+	height: 60px;
+	float: left;	
+}
+.header_daohang{
+	margin-left: 177px;
+	float: left;
+}
+.header_daohang li{
+	float: left;
+	height: 60px;
+	line-height: 60px;
+	font-size: 14px;
+	display: block;
+	width: 133px;
+	text-align: center;
+	cursor: default;
+}
+.header_daohang .shou{
+	cursor: pointer;
+}
+.header_daohang li:hover .click{
+	display: block;
+}
+.header_daohang li a{
+	color: #b2b2b2;
+	display: block;
+	text-align: center;
+}
+.header_daohang li p{
+	color: #b2b2b2;
+	display: block;
+	text-align: center;
+}
+.header_daohang li .click{
+	background: rgba(0,0,0,0.5);
+	display: none;
+	line-height: 35px;
+	height: 35px;
+}
+.header_daohang li .click:hover{
+	background: #1e1b16;
+}
+.header_daohang li a:hover{
+	color: #fff;
+}
+.login,.zhuce{
+	display: block;
+	float: left;
+	height: 60px;
+	line-height: 60px;
+	font-size: 14px;
+	display: block;
+	width: 53px;
+	text-align: center;
+	cursor: pointer;
+    color: #b2b2b2;
+}
+.login:hover,.zhuce:hover{
+	color: #fff;
+}
+/*VR简介*/
+.body_jianjie{
+	width: 100%;
+	background: url(../images/jianjie_bj.png) center center no-repeat;
+	height: 679px;
+}
+.jianjie_guangao{
+	width: 1200px;
+	text-align: center;
+	font-size: 40px;
+	color: #fff;
+	margin:0 auto;
+	font-weight: normal;
+	font-family: "宋体";
+}
+.jianjie_jieshao{
+	width: 299px;
+	margin:21px auto 0; 
+	line-height: 27px;
+	font-size: 14px;
+	color: #d4d4d4;
+	text-align: center;
+}
+.jianjie_btn{
+	width: 75px;
+	height: 26px;
+	line-height: 26px;
+	text-align: center;
+	background: #999a9b;
+	margin: 10px auto; 
+	font-size: 14px;
+	cursor: pointer;
+}
+.jianjie_btn:hover{
+	background: #fff;
+}
+/*3D教学的发展*/
+.fazhan{
+	width: 100%;
+	height: 530px;
+	background: url(../images/bj2.png) center center no-repeat;
+}
+.fazhan_xian{
+	width: 40px;
+	border-bottom: 2px solid #000;
+	margin: 0 auto;
+}
+.fazhan_tit{
+	margin: 51px auto 0;
+	font-size: 40px;
+	font-family: "宋体";
+	font-weight: normal;
+	width: 1200px;
+	text-align: center;
+}
+.fazhan_jianjie{
+	width: 534px;
+	font-size: 14px;
+	color: #8e8e8e;
+	line-height: 27px;
+	margin:35px auto 0;
+	text-align: center;
+}
+/*解决方案*/
+.jiejue_fanan{
+	width: 100%;
+	height: 560px;
+	background: url(../images/bj3.png) center center no-repeat;
+}
+.fangan_xian{
+	width: 40px;
+	border-bottom: 2px solid #fff;
+	margin: 0 auto;
+}
+.fangan_tit{
+	margin: 51px auto 0;
+	font-size: 40px;
+	font-family: "宋体";
+	font-weight: normal;
+	width: 1200px;
+	text-align: center;
+	color: #fff;
+}
+.fangan_jianjie{
+	width: 1200px;
+	font-size: 14px;
+	color: #8e8e8e;
+	margin:54px auto 0;
+	text-align: center;
+	color: #fff;
+}
+/*典型案例*/
+.dianxing_anli{
+	width: 100%;
+	height: 782px;
+	background: url(../images/bj4.png) center center no-repeat;
+}
+.anli_xian{
+	width: 40px;
+	border-bottom: 2px solid #000;
+	margin: 0 auto;
+}
+.anli_tit{
+	margin: 50px auto 0;
+	font-size: 40px;
+	font-family: "宋体";
+	font-weight: normal;
+	width: 1200px;
+	text-align: center;
+}
+.anli_jianjie{
+	width: 534px;
+	font-size: 14px;
+	color: #8e8e8e;
+	margin:44px auto 0;
+	text-align: center;
+}
+.anli_tuji{
+	overflow: hidden;
+	width: 1200px;
+	margin:48px auto 0;
+}
+.anli_tuji li{
+	float: left;
+}
+.anli_tuji li img{
+	float: left;
+}
+/*售后*/
+.shouhou{
+	width: 100%;
+	height: 329px;
+	background: url(../images/bj5.png) center center no-repeat;
+}
+.shouhou_box{
+	width: 366px;
+	height: 160px;
+	background:rgba(255,255,255,0.5);
+	margin:0 auto;
+}
+.shouhou_box1{
+	width: 327px;
+	height: 128px;
+	border: 1px solid #2c3136;
+	margin:0 auto;
+}
+.shouhou_tit{
+	font-size: 40px;
+	font-family: "宋体";
+	width: 327px;
+	text-align: center;
+	margin-top: 30px;
+}
+.shouhou_xian{
+	width: 69px;
+	border-bottom: 1px solid #000;
+	margin: 10px auto 0;
+}
+.shouhou_jianjie{
+	width: 327px;
+	text-align: center;
+	margin-top: 6px;
+}
+/*底部*/
+.footer{
+	width: 100%;
+	background: #313131;
+}
+.footer_box{
+	width: 1200px;
+	margin:0 auto;
+}
+.footer_lianxi a{
+	color: #fff;
+}
+.footer_lianxi a:hover{
+	text-decoration: underline;
+}
+.footer_left{
+	float: left;
+}
+.footer_lianxi{
+	color: #fff;
+	margin-left: 162px;
+}
+.footer_jituan{
+	color: #fff;
+	margin-left: 162px;
+	margin-top: 30px;
+	padding-bottom: 27px;
+}
+.footer_xian{
+	border-right: 1px solid #4f4f4f;
+	margin-left: 83px;
+	height: 108px;
+	float: left;
+	margin-top: 15px;
+}
+.footer_img{
+	float: left;
+	margin-top: 34px;
+	margin-left: 54px;
+}
+/*什么是3DVR*/
+.vr_jieshao{
+	background: url(../images/3D_jieshao_bj.png) 0 0 no-repeat;
+	width: 1200px;
+	margin: 78px auto 0;
+	height: 498px;
+}
+.vr_jieshao_tit{
+	font-size: 22px;
+	color: #fff;
+	margin-left: 44px;
+	padding-left: 20px;
+	position: relative;
+}
+.vr_jieshao_tit:before{
+	content: "";
+	display: block;
+	position: absolute;
+	width: 6px;
+	height: 6px;
+	background: #fff;
+	left: 0;
+	top: 11px;
+}
+/*3D+VR仿真演示*/
+.vr_jieshao_one{
+	width: 330px;
+	float: left;
+	margin-top: 33px;
+	margin-left: 85px;
+}
+.vr_jieshao_top{
+	background: rgba(255,255,255,0.8);
+	width: 330px;
+	height: 190px;
+}
+.top_box{
+	border: 1px solid #959595;
+	width: 305px;
+	height: 149px;
+	margin:0 auto;
+}
+.top_box p{
+	font-size: 14px;
+	padding-left: 9px;
+	line-height: 37px;
+	font-weight: 400;
+	width: 283px;
+}
+.vr_jieshao_two{
+	width: 330px;
+	float: left;
+	margin-top: 33px;
+	margin-left: 20px;
+}
+.vr_jieshao_two .top_box p{
+	font-size: 14px;
+	padding-left: 9px;
+	line-height: 34px;
+	font-weight: 400;
+	width: 283px;
+}
+/*3D教学发展*/
+.vr_fazhan{
+	width: 1200px;
+	margin:0 auto;
+	background: url(../images/corner.png) left top no-repeat;
+	margin-top: 71px;
+}
+.fl_l{
+	float: left;
+}
+.vr_fazhan_tit{
+	font-size: 20px;
+	position: relative;
+	margin-left: 43px;
+	padding-left: 21px;
+
+}
+.vr_fazhan_tit::before{
+	content: "";
+	display: block;
+	position: absolute;
+	width: 6px;
+	height: 6px;
+	background: #000;
+	left: 0;
+	top: 9px;
+}
+.vr_fazhan_jianjie{
+	background: url(../images/sanjiao.png) 0 12px no-repeat;
+	line-height: 37px;
+	padding-left: 16px;
+	margin-left: 71px;
+	width: 729px;
+}
+/*3D+VR教育的研究测试   */
+.vr_ceshi_tit{
+	width: 1200px;
+	background: #f0f0f0;
+	height: 78px;
+}
+.vr_ceshi_tit p{
+	width: 542px;
+	text-align: center;
+	margin:0 auto;
+	line-height: 38px;
+}
+.vr_ceshi_duibi{
+	width: 895px;
+	margin:40px auto 0;
+}
+.xinzang_2d{
+	box-shadow: 0 0 15px #999;
+}
+.duibi_box p{
+	font-size: 16px;
+	line-height: 30px;
+	width: 383px;
+	text-align: center;
+}
+.vs{
+	width: 129px;
+	height: 243px;
+	line-height: 243px;
+	text-align: center;
+	font-size: 43px;
+	font-family: "宋体";
+}
+.vr_ceshi_jieguo{
+	width: 1200px;
+	text-align: center;
+	font-size: 19px;
+	height: 53px;
+	line-height: 53px;
+	background: #f0f0f0;
+	margin-top: 26px;
+	color: #383633;
+}
+.jieguo_biaoming{
+	width: 814px;
+	margin: 34px 0 0 193px;
+	box-shadow: 0 0 15px #999;
+}
+/*3D+VR教室的优势*/
+.banner{
+	width: 1079px;
+	height: 325px;
+	margin-left: 60px;
+	margin-top: 28px;
+	margin-bottom: 41px;
+	position: relative;
+}
+.banner_img img{
+	box-shadow: 0 0 5px #999;
+	width: 100%;
+	height: 100%;
+}
+.banner_img{
+	position: absolute;
+}
+.banner_box{
+	position: absolute;
+	width: 231px;
+	background: rgba(0,0,0,0.5);
+	left: 25px;
+	height: 287px;
+}
+.banner2_img{
+	left: 221px;
+	z-index: 10;
+}
+.banner2_img{
+	width: 636px;
+	height: 325px;
+	bottom: 0;
+}
+.banner1_img,.banner3_img,.banner4_img{
+	width: 500px;
+	height: 256px;
+	bottom: 0;
+}
+.banner3_img{
+	left: 333px;
+}
+.banner4_img{
+	left: 579px;
+}
+.banner_mask{
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0,0.5);
+	z-index: 1;
+	position: absolute;
+}
+.banner_xian{
+	width: 63px;
+	border-top: 1px solid #b6b3b1;
+	margin-left: 27px;
+}
+.banner_tit{
+	margin-top: 28px;
+	font-size: 19px;
+	color: #fff;
+	margin-left: 27px;
+}
+.banner_con{
+	width: 168px;
+	margin-left: 27px;
+	color: #fff;
+	font-size: 14px;
+	line-height: 29px;
+}
+.banner_left,.banner_right{
+	width: 35px;
+	height: 65px;
+	position: absolute;
+	opacity: 0.6;
+	top: 132px;
+	z-index: 20;
+	cursor: pointer;
+}
+.banner_left{
+	left: 164px;
+}
+.banner_left:hover{
+	opacity: 1;
+}
+.banner_right{
+	right: 166px;
+}
+.banner_right:hover{
+	opacity: 1;
+}
+/*售后服务*/
+.shouhou_fuwu_box{
+	width: 1200px;
+	margin: 59px auto 0;
+	overflow: hidden;
+}
+/*电话*/
+.dianhua{
+	width: 1079px;
+	margin:0 auto;
+	background: url(../images/dianhua.png) 0 0 no-repeat;
+	height: 300px;
+}
+.dianhua_box{
+    width: 366px;
+    height: 160px;
+    background: rgba(255,255,255,0.8);
+    margin: 0 auto;
+}
+.dianhua_xian{
+	width: 69px;
+    border-bottom: 1px solid #000;
+    margin: 10px auto 0;
+}
+/*现场*/
+.xianchang{
+	width: 1079px;
+	margin:0 auto;
+	background: url(../images/xianchang.png) 0 0 no-repeat;
+	height: 300px;
+}
+/*培训计划*/
+.peixun{
+	width: 1079px;
+	margin:0 auto;
+	background: url(../images/peixun.png) 0 0 no-repeat;
+	height: 300px;
+}
+/*联系我们*/
+.lianxi_women{
+	width: 1079px;
+	margin:80px auto 0;
+	border-top: 1px solid #7d7d7d;
+    margin-bottom: -345px;
+}
+/*联系方式*/
+.women_left{
+	padding-left: 15px;
+}
+.women_left .women_tit{
+	font-size: 20px;
+	margin-top: 31px;
+}
+.women_left p{
+	line-height: 40px;
+}
+.fl_r{
+	float: right;
+}
+.map{
+	margin-bottom: 75px;
+}
+.women{
+	cursor: pointer;
+}
+/*教育信息化现状*/
+ 
+
+/*产品理念大盒子*/
+.linian_box{
+	width: 1200px;
+	margin:59px auto 0;
+	overflow: hidden;
+}
+/*广告图*/
+.linian{
+	background: url(../images/linian_bj.png) 0 0 no-repeat;
+	width: 1200px;
+	height: 290px;
+}
+.linian_jieshao{
+	width: 719px;
+	margin-left: 64px;
+	opacity: 0.7;
+	color: #fff;
+	line-height: 35px;
+	margin-top: 11px;
+	font-size: 14px;
+}
+/*产品理念下的发展现状*/
+.linian_xianzhuang{
+	margin-top: 80px;
+	border-bottom: 1px solid #bbbab9;
+}
+.linian_xz{
+	width: 1072px;
+	line-height: 36px;
+	padding-top: 13px;
+	padding-bottom: 8px;
+	margin: 0 auto;
+}
+/*发展现状详情*/
+.xianzhuang_xq{
+	width: 1079px;
+	margin:0 auto;
+	border-bottom: 1px solid #bbbab9;
+}
+.xianzhuang_tu{
+	margin:22px 32px 23px 0;
+}
+.xianzhuang_tit{
+	font-weight: bold;
+	margin-top: 38px;
+	line-height: 35px;
+}
+.xianzuhang_js{
+	line-height: 35px;
+	width: 658px;
+}
+/*政策支持*/
+.zhengce_box{
+	margin-top: 80px;
+}
+/*解决方案*/
+.jiejue_body{
+	width: 1096px;
+	margin:37px auto 0;
+	overflow: hidden;
+}
+.jiejue_one_tit{
+	font-size: 20px;
+	position: relative;
+	padding-left: 21px;
+	margin-bottom: 19px;
+}
+.jiejue_one_tit::before{
+	content: "";
+	display: block;
+	position: absolute;
+	width: 6px;
+	height: 6px;
+	background: #000;
+	left: 0;
+	top: 9px;
+}
+.jiejue_fangfa{
+	margin-left: 21px;
+	width: 659px;
+}
+.plan1_tit{
+	font-weight: 600;
+}
+.plan2_tit{
+	margin-top: 30px;
+	font-weight: 600;
+}
+.touying{
+	width: 402px;
+	height: 261px;
+}
+/*适用于*/
+.jiejue_shiyong{
+	width: 100%;
+	height: 46px;
+	line-height: 46px;
+	background: #eeeeee;
+	font-size: 14px;
+	text-align: center;
+	margin-top: 37px;
+	color: #505050;
+	box-shadow: 2px 3px 5px #999;
+	margin-bottom: 57px;
+}
+.plan2_con{
+	width: 588px;
+	line-height: 36px;
+	margin-top: 65px;
+}
+.plan3_tit{
+	padding-left: 10px;
+	background: url(../images/sanjiao.png) left 19px no-repeat;
+	line-height: 45px;
+}
+.jiejue_xian{
+	width: 100%;
+	border-top: 1px solid #bebebe;
+	margin-top: 53px;
+	margin-bottom: 66px;
+}
+/*产品特色*/
+.chanpin_box{
+	width: 1079px;
+	margin:43px auto 0;
+	overflow: hidden;
+}
+.chanpin_one{
+	background: url(../images/chanpin_bj.png) 0 bottom no-repeat;
+	width: 100%;
+	height: 388px;
+	margin-bottom: 77px;
+}
+.chanpin_con{
+	line-height: 27px;
+	width: 337px;
+}
+.chanpin_left{
+	padding-left: 42px;
+	margin-top: 131px;
+}
+.chanpin_tu{
+	margin-right: 59px;
+	box-shadow: 0 0 5px #999;
+}

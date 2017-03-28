@@ -1,0 +1,231 @@
+body{
+	background: url(../images/login.png) 0 0 no-repeat;
+	position: relative;
+}
+html,body{
+	height: 100%;
+	width: 100%;
+}
+.login_box{
+	width: 566px;
+	height: 503px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-left: -283px;
+	margin-top: -251px;
+	background: url(../images/login_box.png) 0 0 no-repeat;
+}
+.login_box1{
+	position: relative;
+}
+.login_box input{
+	display: block;
+	width: 291px;
+	height: 35px;
+	line-height: 35px;
+	font-size: 20px;
+	text-align: center;
+	border: 0;
+	padding: 0 17px;
+	background-color: none;
+	color: #fff;
+	text-shadow: 0 0 5px #fff,
+               0 0 10px #fff,
+               0 0 15px #fff,
+               0 0 20px #228DFF,
+               0 0 35px #228DFF,
+               0 0 40px #228DFF,
+               0 0 50px #228DFF,
+               0 0 75px #228DFF;
+}
+.login_input{
+	margin:144px auto 0;
+	background: url(../images/zhanghao.png) 0 0 no-repeat;
+}
+.login_input:focus{
+	background: url(../images/zhanghao1.png) 0 0 no-repeat;
+}
+.login_box .login_input_focus{
+	background: url(../images/zhanghao1.png) 0 0 no-repeat;
+}
+.password_input:focus{
+	background: url(../images/zhanghao1.png) 0 0 no-repeat;
+}
+.password_input{
+	margin:20px auto 0;
+	background: url(../images/mima.png) 0 0 no-repeat;
+}
+.yzm_input{
+	margin:20px auto 0;
+	background: url(../images/yzm_img.png) 0 0 no-repeat;
+}
+.yzm_input:focus{
+	background: url(../images/zhanghao1.png) 0 0 no-repeat;
+}
+.login_box .login_btn{
+	width: 331px;
+	margin:37px auto 0;
+	display: block;
+	cursor: pointer;
+	background: url(../images/denglu.png) 0 0 no-repeat;
+}
+.zhuce_box .login_btn{
+	width: 331px;
+	margin:20px auto 0;
+	display: block;
+	cursor: pointer;
+	background: url(../images/zhuce_btn.png) 0 0 no-repeat;
+}
+.yzm{
+	position: absolute;
+	left: 346px;
+    top: 255px;
+    cursor: pointer;
+    z-index: 1;
+}
+.login_zhuce{
+	color: #8f96a4;
+	width: 100%;
+	text-align: center;
+	margin-top: 18px
+}
+.login_zhuce a{
+	color: #fff;
+}
+.login_zhuce a:hover{
+	color: #fff;
+	text-decoration: underline;
+	text-shadow: 0 0 5px #fff,
+               0 0 10px #fff,
+               0 0 15px #fff,
+               0 0 20px #228DFF,
+               0 0 35px #228DFF,
+               0 0 40px #228DFF;
+}
+.login_jituan{
+	color: #aae9ff;
+	background: url(../images/login_xian.png) 0 center no-repeat;
+	width: 590px; 
+	text-align: center;
+	font-size: 14px;
+	margin-top: 136px;
+	text-shadow: 0 0 5px #aae9ff,
+               0 0 10px #aae9ff,
+               0 0 20px #228DFF;
+}
+/*注册*/
+.zhuce_box{
+	width: 566px;
+	height: 561px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-left: -283px;
+	margin-top: -280px;
+	background: url(../images/zhuce_box.png) 0 0 no-repeat;
+}
+.zhuce_box input{
+	display: block;
+	width: 291px;
+	height: 35px;
+	line-height: 35px;
+	font-size: 20px;
+	text-align: center;
+	border: 0;
+	padding: 0 17px;
+	background-color: none;
+	color: #fff;
+	text-shadow: 0 0 5px #fff,
+               0 0 10px #fff,
+               0 0 15px #fff,
+               0 0 20px #228DFF,
+               0 0 35px #228DFF,
+               0 0 40px #228DFF,
+               0 0 50px #228DFF,
+               0 0 75px #228DFF;
+}
+.user_input{
+	margin:144px auto 0;
+	background: url(../images/user_name.png) 0 0 no-repeat;
+}
+.queren_input{
+	    margin: 20px auto 0;
+	background: url(../images/queren_mm.png) 0 0 no-repeat;
+}
+.email_input{
+	    margin: 20px auto 0;
+	background: url(../images/email.png) 0 0 no-repeat;
+}
+.nicheng_input{
+	    margin: 20px auto 0;
+	background: url(../images/nicheng.png) 0 0 no-repeat;
+}
+.zhuce_box input:focus{
+	background: url(../images/zhanghao1.png) 0 0 no-repeat;
+}
+.zhuce_box .login_input_focus1{
+	background: url(../images/zhanghao1.png) 0 0 no-repeat;
+}
+.liji_login{
+    color: #8eaff7;
+    width: 100%;
+    text-align: center;
+    margin-top: 18px;
+}
+.liji_login a{
+	color: #fff;
+	margin-left: 3px;
+}
+.liji_login a:hover{
+	color: #fff;
+	text-decoration: underline;
+	text-shadow: 0 0 5px #fff,
+               0 0 10px #fff,
+               0 0 15px #fff,
+               0 0 20px #228DFF,
+               0 0 35px #228DFF,
+               0 0 40px #228DFF;
+}
+.xieyi_box{
+	width: 291px;
+	margin: 20px auto 0;
+}
+.zhuce_box .xieyi_checkbox{
+	width: 15px;
+	height: 15px;
+	display: block;
+	float: left;
+	margin-top: 3px;
+}
+.xieyi{
+	color: #8eaff7;
+	margin-left: 7px;
+}
+.xieyi:hover{
+	text-decoration: underline;
+}
+/*协议*/
+.xieyi_tankuang{
+	width: 841px;
+	height: 759px;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-left: -421px;
+	margin-top: -380px;
+	background: #fff;
+	border: 4px solid #2574ba;
+	border-radius: 10px;
+	overflow-y: scroll;
+	display: none;
+}
+.xieyi_tankuang img{
+	float: right;
+	margin-right: 10px;
+	margin-top: 10px;
+	cursor: pointer;
+}
+.xieyi_tankuang p{
+	padding: 15px;
+}
